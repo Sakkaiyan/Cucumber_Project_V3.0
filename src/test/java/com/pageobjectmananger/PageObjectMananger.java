@@ -22,12 +22,7 @@ public class PageObjectMananger {
 			education = new NaukriEducationPage();
 		return education;
 	}
-	
-	
-	
-	
-
-	public NakuriKeySkillsPage getKeySkills() {
+public NakuriKeySkillsPage getKeySkills() {
 		if (keyskills == null)
 			keyskills = new NakuriKeySkillsPage();
 		return keyskills;
